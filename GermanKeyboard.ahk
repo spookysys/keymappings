@@ -3,11 +3,14 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; fucking germans
-z::y
-y::z
-
 ; norwegian letters
 *<^>!SC028::æ
 *<^>!SC027::ø
 *<^>!SC01A::å
+*+<^>!SC028::Æ
+*+<^>!SC027::Ø
+*+<^>!SC01A::Å
+
+; fucking germans
+z::y
+y::z

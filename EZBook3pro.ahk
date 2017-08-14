@@ -7,6 +7,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 *<^>!SC028::æ
 *<^>!SC027::ø
 *<^>!SC01A::å
+*+<^>!SC028::Æ
+*+<^>!SC027::Ø
+*+<^>!SC01A::Å
 
 ; toggle with caps-lock
 #if GetKeyState("CapsLock", "T")
